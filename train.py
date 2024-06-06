@@ -60,7 +60,7 @@ for epoch in range(125):
             val_loss += loss.item()
         val_loss /= len(val_loader)
 
-    print(f'Epoch {epoch + 1}, Training Loss: {train_loss}, Validation Loss: {val_loss}')
+    print(f'Epoch {epoch + 1}, Loss: {train_loss}')
 
 # Save the model
 torch.save(model.state_dict(), 'fish_regressor.pth')

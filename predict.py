@@ -20,7 +20,7 @@ model.load_state_dict(torch.load('fish_regressor.pth'))
 model.eval()
 
 # Load the image
-image = cv2.imread('fish.jpg')
+image = cv2.imread('12_04_21-B.9.jpg')
 image = cv2.resize(image, (200, 75))
 image = image.transpose((2, 0, 1))
 image = np.expand_dims(image, axis=0)
@@ -35,9 +35,18 @@ with torch.no_grad():
     prediction = model(image)
     prediction = prediction.numpy()
 
-print(f'Predicted Coordinates: ({prediction[0][0]}, {prediction[0][1]}), ({prediction[0][2]}, {prediction[0][3]})')
+print(f'Predicted Specie: {prediction[0][0]}')
+print(f'Predicted Length: {prediction[0][1]}')
 
-print(f'Predicted Specie: {prediction[0][4]}')
-print(f'Predicted Length: {prediction[0][5]}')
+# image = cv2.imread('3_05_21-B23.jpg')
+# image = cv2.resize(image, (200, 75))
+# x1 = int(prediction[0][0])
+# y1 = int(prediction[0][1])
+# x2 = int(prediction[0][2])
+# y2 = int(prediction[0][3])
+# cv2.rectangle(image, (x1, y1), (x2, y2), (0, 255, 0), 2)
 
+# cv2.imshow('Image', image)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
 #print(f'Predicted Length: {prediction[0][4]}')

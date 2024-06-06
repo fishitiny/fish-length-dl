@@ -13,10 +13,11 @@ class FishRegressor(nn.Module):
 
         self.conv2 = nn.Conv2d(32, 64, 3)
         self.conv3 = nn.Conv2d(64, 64, 3)
-        #self.fc1 = nn.Linear(64 * 5 * 16, 256)
-        # self.fc2 = nn.Linear(256, 5)
-        self.fc1 = nn.Linear(64 * 5 * 16, 256)
-        self.fc2 = nn.Linear(256, 6)
+
+        #The size of the fully connected layer was set to 256.
+        self.fc1 = nn.Linear(10304, 256)
+
+        self.fc2 = nn.Linear(256, 2)
     def forward(self, x):
         x = F.max_pool2d(F.relu(self.conv1(x)), (2, 2))
         x = F.max_pool2d(F.relu(self.conv2(x)), (2, 2))
