@@ -111,6 +111,7 @@ class FishDataset(torch.utils.data.Dataset):
                     y1=y2
                     y2=t
 
+
                 image_temp = image_temp[y1:y2, x1:x2]
                 image_temp = cv2.copyMakeBorder(image_temp, y1, 75 - y2, x1, 200 - x2, cv2.BORDER_CONSTANT, value=[255, 255, 255])
 
