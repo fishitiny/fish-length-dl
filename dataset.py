@@ -98,6 +98,7 @@ class FishDataset(torch.utils.data.Dataset):
                 # 转成int类型
                 x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
                 # print(x1, y1, x2, y2)
+
                 # 把图片按照相应的坐标裁剪，并保持其大小不变，并将其他部分填充为0
                 image_temp = cv2.resize(image_temp, (200, 75))
 
