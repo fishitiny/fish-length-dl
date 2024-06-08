@@ -1,0 +1,38 @@
+[33m7e04857[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{0}: commit (amend): 1.0 version.
+[33m4a0976a[m HEAD@{1}: rebase (finish): returning to refs/heads/master
+[33m4a0976a[m HEAD@{2}: rebase (pick): 1.0 version.
+[33m6092e79[m HEAD@{3}: rebase (pick): 1.0 version.
+[33m3a23b8a[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{4}: rebase (start): checkout 3a23b8afbbbf7e3fadd5abbb5e79ad72dc198553
+[33mccda4b7[m HEAD@{5}: commit (amend): 1.0 version.
+[33m7326d31[m HEAD@{6}: commit (amend): 1.0 version.
+[33m2996dc6[m HEAD@{7}: commit: 1.0 version.
+[33mcb8245e[m HEAD@{8}: reset: moving to HEAD
+[33mcb8245e[m HEAD@{9}: commit: 1.0 version.
+[33m2062294[m HEAD@{10}: reset: moving to HEAD
+[33m2062294[m HEAD@{11}: commit (amend): 1.0 version.
+[33m89192db[m HEAD@{12}: reset: moving to HEAD
+[33m89192db[m HEAD@{13}: reset: moving to HEAD
+[33m89192db[m HEAD@{14}: reset: moving to HEAD
+[33m89192db[m HEAD@{15}: reset: moving to HEAD^
+[33m1583364[m HEAD@{16}: commit (amend): dfgh
+[33m85f480e[m HEAD@{17}: commit (amend): dfgh
+[33mbcd3f1a[m HEAD@{18}: commit: 1.0 version
+[33m89192db[m HEAD@{19}: commit (amend): 1.0 version.
+[33m651ca2a[m HEAD@{20}: commit (amend): 1.0 version.
+[33m524f6bb[m HEAD@{21}: commit (amend): 1.0 version.
+[33m9017a26[m HEAD@{22}: commit (amend): 1.0 version.
+[33m7cc6006[m HEAD@{23}: commit (amend): 1.0 version.
+[33mb80d32e[m HEAD@{24}: commit (amend): 1.0 version.
+[33m6a8e1be[m HEAD@{25}: commit (amend): 1.0 version.
+[33mf0aafc5[m HEAD@{26}: commit (amend): 1.0 version.
+[33m47a40ac[m HEAD@{27}: commit (amend): 1.0 version.
+[33m5e6cf1e[m HEAD@{28}: commit (amend): 1.0 version.
+[33m5fb45dd[m HEAD@{29}: commit (amend): 1.0 version.
+[33m74d247f[m HEAD@{30}: commit (amend): 1.0 version.
+[33mdeaef4b[m HEAD@{31}: commit: 1.0 version.
+[33m3a23b8a[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{32}: commit: 1.0 version
+[33m342677c[m HEAD@{33}: commit: change the name
+[33m3ac5efa[m HEAD@{34}: merge origin/master: Merge made by the 'ort' strategy.
+[33mde9f8f4[m HEAD@{35}: commit: initial trials
+[33mb7471d7[m HEAD@{36}: commit: initial trials
+[33md233af0[m HEAD@{37}: commit (initial): initial trials
